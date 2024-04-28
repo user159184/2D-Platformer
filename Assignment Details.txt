@@ -1,0 +1,17 @@
+Current bugs:
+Screen flickering when quitting the game after playing a few levels.
+ 
+Things that didn't work out but should be implemented:
+Search/sort through maps for coins:
+	Search/sort algorithm that shell sorts through each map and determines how many coins there are at the beginning (ex: variable map1_coins). 
+	As the player collects coins, the map is updated and the new amount of coins is recorded (ex: variable updated_map1_coins). 
+	When colliding with the nextLevel block, the two values are compared, and if updated_map1_coins = 0, the player can move onto the next level. Otherwise, game over. 
+
+Water block:
+	Player speed slows down when walking on water.
+	
+Reources used throughout this assignment:
+ICS4U Course content
+https://www.pygame.org/wiki/tutorials
+https://stackoverflow.com/questions/tagged/pygame 
+https://pythonprogramming.net/pygame-python-3-part-1-intro/
